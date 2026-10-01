@@ -46,8 +46,4 @@ public struct MoviePage: Equatable, Sendable {
     public var hasNextPage: Bool {
         page < totalPages
     }
-
-    public var nextPage: Int? {
-        hasNextPage ? page + 1 : nil
-    }
 }

@@ -1,6 +1,5 @@
 import Foundation
 
-/// The movie data interface consumed later by a TCA feature or another client.
 public protocol MovieRepository: Sendable {
     func searchMovies(query: String, page: Int) async throws -> MoviePage
     func nowPlayingMovies(page: Int) async throws -> MoviePage

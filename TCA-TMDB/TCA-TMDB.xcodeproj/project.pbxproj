@@ -18,19 +18,11 @@
 			remoteGlobalIDString = 8BDD8F2B306D71190036C552;
 			remoteInfo = "TCA-TMDB";
 		};
-		8BDD8F44306D711A0036C552 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BDD8F24306D71190036C552 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8BDD8F2B306D71190036C552;
-			remoteInfo = "TCA-TMDB";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8BDD8F2C306D71190036C552 /* TCA-TMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA-TMDB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDD8F39306D711A0036C552 /* TCA-TMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-TMDBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BDD8F43306D711A0036C552 /* TCA-TMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCA-TMDBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -57,11 +49,6 @@
 			path = "TCA-TMDBTests";
 			sourceTree = "<group>";
 		};
-		8BDD8F46306D711A0036C552 /* TCA-TMDBUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "TCA-TMDBUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +63,6 @@
 			files = (
 			);
 		};
-		8BDD8F40306D711A0036C552 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			files = (
-			);
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,7 +71,6 @@
 			children = (
 				8BDD8F2E306D71190036C552 /* TCA-TMDB */,
 				8BDD8F3C306D711A0036C552 /* TCA-TMDBTests */,
-				8BDD8F46306D711A0036C552 /* TCA-TMDBUITests */,
 				8BDD8F2D306D71190036C552 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,7 +80,6 @@
 			children = (
 				8BDD8F2C306D71190036C552 /* TCA-TMDB.app */,
 				8BDD8F39306D711A0036C552 /* TCA-TMDBTests.xctest */,
-				8BDD8F43306D711A0036C552 /* TCA-TMDBUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,27 +129,6 @@
 			productReference = 8BDD8F39306D711A0036C552 /* TCA-TMDBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8BDD8F42306D711A0036C552 /* TCA-TMDBUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8BDD8F51306D711A0036C552 /* Build configuration list for PBXNativeTarget "TCA-TMDBUITests" */;
-			buildPhases = (
-				8BDD8F3F306D711A0036C552 /* Sources */,
-				8BDD8F40306D711A0036C552 /* Frameworks */,
-				8BDD8F41306D711A0036C552 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8BDD8F45306D711A0036C552 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8BDD8F46306D711A0036C552 /* TCA-TMDBUITests */,
-			);
-			name = "TCA-TMDBUITests";
-			productName = "TCA-TMDBUITests";
-			productReference = 8BDD8F43306D711A0036C552 /* TCA-TMDBUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -185,10 +144,7 @@
 					};
 					8BDD8F38306D711A0036C552 = {
 						CreatedOnToolsVersion = 27.0;
-						TestTargetID = 8BDD8F2B306D71190036C552;
-					};
-					8BDD8F42306D711A0036C552 = {
-						CreatedOnToolsVersion = 27.0;
+						LastSwiftMigration = 2700;
 						TestTargetID = 8BDD8F2B306D71190036C552;
 					};
 				};
@@ -212,7 +168,6 @@
 			targets = (
 				8BDD8F2B306D71190036C552 /* TCA-TMDB */,
 				8BDD8F38306D711A0036C552 /* TCA-TMDBTests */,
-				8BDD8F42306D711A0036C552 /* TCA-TMDBUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,11 +179,6 @@
 			);
 		};
 		8BDD8F37306D711A0036C552 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			files = (
-			);
-		};
-		8BDD8F41306D711A0036C552 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -246,11 +196,6 @@
 			files = (
 			);
 		};
-		8BDD8F3F306D711A0036C552 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			files = (
-			);
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -258,11 +203,6 @@
 			isa = PBXTargetDependency;
 			target = 8BDD8F2B306D71190036C552 /* TCA-TMDB */;
 			targetProxy = 8BDD8F3A306D711A0036C552 /* PBXContainerItemProxy */;
-		};
-		8BDD8F45306D711A0036C552 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8BDD8F2B306D71190036C552 /* TCA-TMDB */;
-			targetProxy = 8BDD8F44306D711A0036C552 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -413,10 +353,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -446,10 +386,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -458,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M3F68V6NQG;
@@ -469,8 +410,9 @@
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCA-TMDB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCA-TMDB";
 			};
@@ -480,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M3F68V6NQG;
@@ -492,49 +435,9 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCA-TMDB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCA-TMDB";
-			};
-			name = Release;
-		};
-		8BDD8F52306D711A0036C552 /* Debug configuration for PBXNativeTarget "TCA-TMDBUITests" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M3F68V6NQG;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ivarun.TCA-TMDBUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "TCA-TMDB";
-			};
-			name = Debug;
-		};
-		8BDD8F53306D711A0036C552 /* Release configuration for PBXNativeTarget "TCA-TMDBUITests" */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M3F68V6NQG;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ivarun.TCA-TMDBUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "TCA-TMDB";
 			};
 			name = Release;
 		};
@@ -562,14 +465,6 @@
 			buildConfigurations = (
 				8BDD8F4F306D711A0036C552 /* Debug configuration for PBXNativeTarget "TCA-TMDBTests" */,
 				8BDD8F50306D711A0036C552 /* Release configuration for PBXNativeTarget "TCA-TMDBTests" */,
-			);
-			defaultConfigurationName = Release;
-		};
-		8BDD8F51306D711A0036C552 /* Build configuration list for PBXNativeTarget "TCA-TMDBUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8BDD8F52306D711A0036C552 /* Debug configuration for PBXNativeTarget "TCA-TMDBUITests" */,
-				8BDD8F53306D711A0036C552 /* Release configuration for PBXNativeTarget "TCA-TMDBUITests" */,
 			);
 			defaultConfigurationName = Release;
 		};

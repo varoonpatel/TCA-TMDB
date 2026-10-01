@@ -30,4 +30,5 @@ public struct URLSessionNetworkClient: NetworkClient {
 public enum NetworkClientError: Error, Equatable {
     case nonHTTPResponse
     case unacceptableStatusCode(Int)
+    case unknown
 }
