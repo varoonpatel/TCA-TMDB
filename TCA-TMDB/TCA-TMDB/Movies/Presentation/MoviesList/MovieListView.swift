@@ -27,7 +27,7 @@ struct MovieListView: View {
             }
             .id(store.movies.first?.id)
             .background(MovieColors.background)
-            .navigationTitle("Movies")
+            .navigationTitle("Now Playing")
             .onAppear {
                 store.send(.fetchMovies)
             }
@@ -37,7 +37,6 @@ struct MovieListView: View {
             try? await Task.sleep(for: .milliseconds(300))
             await store.send(.searchDebounced).finish()
         }
-        .tint(MovieColors.accent)
     }
     
     private func shouldLoadNextPage(movie: Movie) -> Bool {
